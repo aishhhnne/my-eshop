@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About — EShop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="container header">
+    <a class="brand" href="index.html">
+        <div class="logo"><img src="images/logo.jpg" alt="EShop Logo"></div>
+        <div><h1>EShop</h1><p>Luxury laptops & accessories</p></div>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="login.html" class="btn btn-outline">Login</a>       <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>     </nav>
+  </header>
+
+  <main class="container" style="padding-bottom:40px">
+    <h2>About EShop</h2>
+    <p class="muted">Founded in 2023, EShop was born from a desire to combine timeless aesthetics with modern technology. We believe product design should evoke emotion — not just function. Our curated selection focuses on performance, craft, and presentation.</p>
+
+    <section style="margin-top:18px;">
+      <div class="hero-card">
+        <h3>Our Mission</h3>
+        <p class="muted">We help creatives and professionals express individuality through devices that feel personal — beautifully packaged, thoughtfully supported.</p>
+
+        <h4 style="margin-top:12px">What we value</h4>
+        <ul style="color:var(--muted);line-height:1.6">
+          <li>**Quality materials & manufacturing** — Products designed to last and impress.</li>
+          <li>**Exceptional customer service** — Personalized support for a luxury experience.</li>
+          <li>**Thoughtful packaging & presentation** — Every unboxing is an event.</li>
+        </ul>
+      </div>
+
+      <div class="hero-card" style="margin-top:18px;">
+        <h3>Team & Story</h3>
+        <p class="muted">Started by designers and technologists, each product is chosen for its ability to tell a story — whether it's the metalwork of a laptop, or the satin lining of a sleeve. We take care of the details so you can enjoy the experience.</p>
+        <p class="muted">For questions regarding our products or services, please visit our dedicated **<a href="contact.html">Contact Page</a>**.</p>
+      </div>
+    </section>
+
+    <footer style="margin-top:28px" class="footer">
+      <div>
+        <strong>EShop</strong>
+        <div class="muted">“No elegance is possible without tech — it’s the unseen power that connects us all.”</div>
+      </div>
+      <div class="muted">© <span id="year2"></span> EShop</div>
+    </footer>
+
+  </main>
+
+  <script>try{document.getElementById('year2').textContent=new Date().getFullYear()}catch(e){}</script>
+</body>
+</html>
